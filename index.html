@@ -3,30 +3,81 @@
 
 <head>
   <meta charset="utf-8">
-  <title>💝 Elangeni' Personal Site</title>
+  <title>Elangeni Yabba</title>
+  <!-- In this section I'm going to deal with styling the document-->
+  <style>
+    body {
+      margin: 0;
+      background-color: #f8f8f8;
+    }
+
+    section.first-section{
+      background-color: #caf2d7;
+    }
+
+    hr {
+      border-style: none;
+      border-top-style: dotted;
+      border-color: grey;
+      border-width: 5px;
+      width: 5%;
+    }
+
+    /*This makes all of the images circulal. I may change this when it is time to
+add screenshots of projects  */
+    img {
+      border-radius: 50%;
+    }
+
+    /* Aligns the text with the middle of picture in the header*/
+    img.head {
+      vertical-align: middle;
+    }
+
+    /* Format the font for the first div*/
+    div.top {
+      font-size: x-large;
+      font-family: "Helvetica Neue", Times, serif;
+      word-spacing: 30px;
+      padding:10px;
+    }
+
+    /* Format how links appear*/
+    a:link , a:visited {
+      color: black;
+      text-decoration: none;
+    }
+  </style>
 </head>
 
 <!-- If you want bold use the <strong> </strong>-->
 
 <body>
+  <section class = "first-section">
+    <header class="page-header">
+      <div class="top"><img class="head" src="Images/myAvatar.png" alt="Software Engineer Portfolio Profile Image" width="75" height="75" />
+        <span style="float:right;"> <a href="index.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
+        </span> </div>
 
-<table cellspacing = "20">
-  <tr>
-    <td><img src="Profile pic.jpg" alt="Software Engineer Portfolio Profile Image"></td>
-    <td><h1> Elangeni Yabba</h1>
-    <p>
-      <i>Student</i> at
-      <a href="https://www.pace.edu/academics/graduate-students/degrees/software-development-and-engineering-ms" <strong>Pace University<br></strong></a>
-      Software Development and Engineering <br>
-      Class of 2020 <br>
-    </p>
-    <p>I am a second year master's student with a passion for deveping mobile
-      applications. I have experience developing both iOS and Android
-      apps. I am currently looking for an internship opportunity. </p></td>
-  </tr>
-</table>
+    </header>
+  </section>
 
-  <hr size="1">
+
+  <h1> Elangeni Yabba</h1>
+  <p>
+    <i>Student</i> at
+    <a href="https://www.pace.edu/academics/graduate-students/degrees/software-development-and-engineering-ms" <strong>Pace University<br></strong></a>
+    Software Development and Engineering <br>
+    Class of 2020 <br>
+  </p>
+  <p>I am a second year master's student with a passion for deveping mobile
+    applications. I have experience developing both iOS and Android
+    apps. I am currently looking for an internship opportunity. </p>
+
+  <hr>
   <h3>Education</h3>
   <p>
     <ul>
@@ -40,6 +91,8 @@
         Graduation: May 2017 <br>
         GPA: 3.74 <br></li>
     </ul>
+
+    <hr>
 
     <table>
       <thead>
