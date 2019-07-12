@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: "Courier New", Times, serif;
+  color: #6b778d;
+  background-color: #fae3d9;
+  font-weight: 500;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
+h1{
+  color: #17223b;
+}
+
+/* Format how links appear*/
+a:link,
+a:visited {
+  color: #6b778d;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff6768;
+}
+
+
+
+
+/*This makes all of the images circulal. I may change this when it is time to
+add screenshots of projects  */
+img {
+  border-radius: 50%;
+}
+.first-section{
+  background-color: #17223b;
+}
+
+/* Aligns the text with the middle of picture in the header*/
+.head {
+  vertical-align: middle;
+}
+
+/* Format the font for the first div*/
+.firstSectionTop {
+  font-family: "Courier New", Times, serif;
+  font-size: x-large;
+  word-spacing: 30px;
+  padding: 3%;
+  color: #6b778d
+}
+
+/* Format the font for the second div*/
+.firstSectionMiddle {
+  font-family: "Courier New", Times, serif;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+  padding-right: 60%;
+  color: #6b778d;
+
+}
+
+.intro {
+  font-size: 200%;
+  color: #ff6768;
+}
+
+.typewriterEffect {
+  /* Add typewriting effect with javascript*/
+
+}
+
+.secondSection {
+  padding-left: 30%;
+}
