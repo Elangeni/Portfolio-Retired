@@ -92,6 +92,10 @@ a:hover{
   top: 50px;
 }
 
+.beach{
+  width: 100%;
+}
+
 .profile-pic {
   border-radius: 50%;
 }
