@@ -4,125 +4,62 @@
 <head>
   <meta charset="utf-8">
   <title>Elangeni Yabba</title>
+  <link rel="stylesheet" href="CSS/styles.css">
   <!-- In this section I'm going to deal with styling the document-->
-  <style>
-    body {
-      margin: 0;
-      background-color: #f8f8f8;
-    }
 
-    section.first-section{
-      background-color: #caf2d7;
-    }
-
-    hr {
-      border-style: none;
-      border-top-style: dotted;
-      border-color: grey;
-      border-width: 5px;
-      width: 5%;
-    }
-
-    /*This makes all of the images circulal. I may change this when it is time to
-add screenshots of projects  */
-    img {
-      border-radius: 50%;
-    }
-
-    /* Aligns the text with the middle of picture in the header*/
-    img.head {
-      vertical-align: middle;
-    }
-
-    /* Format the font for the first div*/
-    div.top {
-      font-size: x-large;
-      font-family: "Helvetica Neue", Times, serif;
-      word-spacing: 30px;
-      padding:10px;
-    }
-
-    /* Format how links appear*/
-    a:link , a:visited {
-      color: black;
-      text-decoration: none;
-    }
-  </style>
 </head>
 
-<!-- If you want bold use the <strong> </strong>-->
-
 <body>
-  <section class = "first-section">
+  <section class="first-section">
     <header class="page-header">
-      <div class="top"><img class="head" src="myAvatar.png" alt="Software Engineer Portfolio Profile Image" width="75" height="75" />
+      <div class="firstSectionTop"><img class="head" src="websiteLogo.png" alt="Elangeni Yabba" width="75" height="75" align="middle" />
         <span style="float:right;"> <a href="index.html">About</a>
           <a href="projects.html">Projects</a>
           <a href="blog.html">Blog</a>
           <a href="contact.html">Contact</a>
+          Resume
         </span> </div>
+
+      <div class="firstSectionMiddle">
+        <p class="intro">Hey, I'm Elangeni.</p>
+        <p class="typewriterEffect">Software development is my passion. I strive
+        to create mobile and web solutions that make the lives of those around me
+       easier.</p>
+      </div>
 
     </header>
   </section>
+  <section class="secondSection">
+    <div class="secondSectionTop">
+      <table cellspacing = "30">
+        <thead>
+          <th><h1>About Me</h1></th>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img class="head" src="Profile pic.jpg"
+            alt="Software Engineer Portfolio Profile Image"></td>
+            <td>Hello! My name is Elangeni, a graduate student based in
+              New York, NY. I am currently attending Pace University where I
+              study software development and engineering.
+              Software development has always been a passion of mine and
+              I genuinely enjoy every aspect of the development cycle.
+              <br>
+              <br>
+              I discovered my love for this field shortly after graduating with
+              my Bachelor of Science in Mathematics from the University of the
+              Virgin Islands. I began to create intuitive mobile and web apps
+              with efficient, modern backends. Now that I am beginning my
+              second year as a graduate student, I am searching for internship
+              opportunities.</td>
+          </tr>
+        </tbody>
+        <tfoot>
+        </tfoot>
+      </table>
 
-
-  <h1> Elangeni Yabba</h1>
-  <p>
-    <i>Student</i> at
-    <a href="https://www.pace.edu/academics/graduate-students/degrees/software-development-and-engineering-ms" <strong>Pace University<br></strong></a>
-    Software Development and Engineering <br>
-    Class of 2020 <br>
-  </p>
-  <p>I am a second year master's student with a passion for deveping mobile
-    applications. I have experience developing both iOS and Android
-    apps. I am currently looking for an internship opportunity. </p>
-
-  <hr>
-  <h3>Education</h3>
-  <p>
-    <ul>
-      <li><a href="https://www.pace.edu/academics/graduate-students/degrees/software-development-and-engineering-ms" <strong>Pace University<br></strong></a>
-        Master of Science in Software Development and Engineering <br>
-        Expected Graduation: August 2020 <br>
-        GPA: 3.87
-      </li>
-      <li><a href="https://www.uvi.edu/academics/science-math/departments/dept-math-sciences/mathematics/default.aspx" <strong>University of the Virgin Islands<br></strong></a>
-        Bachelor of Science in Mathematics <br>
-        Graduation: May 2017 <br>
-        GPA: 3.74 <br></li>
-    </ul>
-
-    <hr>
-
-    <table>
-      <thead>
-        <tr>
-          <th>Date</th>
-          <th>Work Experience</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>May 2019 to Present</td>
-          <td>Unarmed Security Guard at Garrison Protective Services</td>
-        </tr>
-        <tr>
-          <td>August 2018 to April 2019</td>
-          <td>Administrative Assistant at Uptown Healthcare Management</td>
-        </tr>
-      </tbody>
-      <tfoot>
-
-      </tfoot>
-
-    </table>
-    <br>
-
-    <a href="technical skills.html">Technical Skills</a>
-    <br>
-    <a href="contact.html">Contact Me</a>
-  </p>
-
+      </div>
+  </section>
 
 </body>
 
