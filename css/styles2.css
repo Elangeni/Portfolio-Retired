@@ -1,0 +1,169 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #27323a;
+}
+
+h1 {
+  font-family: 'Raleway', Arial, sans-serif;
+  color: #a3f7bf;
+  padding-top: 15%;
+}
+
+h2 {
+  color: #29a19c;
+  font-family: 'Raleway', Arial, sans-serif;
+  padding-bottom: 3%;
+}
+a{
+  color: #29a19c;
+}
+
+a:hover{
+  color: #a3f7bf;
+}
+
+/* Title Section */
+#title {
+  background-color: #27323a;
+  color: white;
+}
+
+.title-img {
+  position: absolute;
+  width: 90%;
+  transform: rotate(15deg);
+  right: 1%;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.title-row {
+  padding: 0 0 3.5rem;
+}
+
+/* Nav bar */
+.navbar {
+  padding: 0 0 3.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+/* About Me */
+#about-me {
+  background-color: white;
+  padding: 7% 15%;
+  position: relative;
+}
+
+/* project */
+
+#projects {
+  text-align: center;
+  background-color: #435055;
+  color: white;
+}
+
+.project-image {
+  width: 50%;
+  border-radius: 100%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Skills Section */
+#my-skills {
+  background-color: #fff;
+  text-align: center;
+}
+
+.skills-heading{
+  text-align: center;
+  padding: 7% 5%;
+}
+
+.skill-row {
+  width: 50%;
+  line-height: 2;
+  margin:0 auto 100px auto;
+  text-align: left;
+}
+
+.code-img {
+  width: 30%;
+  float: left;
+  margin-right: 2rem;
+}
+
+.framework-img {
+  border-radius: 50%;
+  width: 30%;
+  float: right;
+  margin-left: 2rem;
+}
+
+.software-img {
+  width: 30%;
+  float: left;
+  margin-right: 2rem;
+}
+
+/* Footer */
+/* Call to Action */
+
+#cta{
+  background-color: #27323a;
+  color: white;
+  text-align: center;
+}
+
+
+
+/* Footer */
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.footer-link{
+  color: #29a19c;
+  display: inline;
+  padding: 2%;
+}
+
+.footer-link:hover{
+  color: #a3f7bf;
+}
+
+.bottom-container {
+  padding: 3% 15% 3%;
+}
+
+/* Media Query */
+
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position:static;
+    transform: rotate(0);
+  }
+}
